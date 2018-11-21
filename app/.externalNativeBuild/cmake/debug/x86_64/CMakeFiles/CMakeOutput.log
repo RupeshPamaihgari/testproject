@@ -1,19 +1,19 @@
 The target system is: Android - 1 - x86_64
 The host system is: Linux - 4.15.0-39-generic - x86_64
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
+Change Dir: /home/rupesh/Desktop/GIT/testproject/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_c9bc8"
-[1/2] Building C object CMakeFiles/cmTC_c9bc8.dir/testCCompiler.c.o
-[2/2] Linking C executable cmTC_c9bc8
+Run Build Command:"/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_249ce"
+[1/2] Building C object CMakeFiles/cmTC_249ce.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_249ce
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
+Change Dir: /home/rupesh/Desktop/GIT/testproject/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_a7b02"
-[1/2] Building C object CMakeFiles/cmTC_a7b02.dir/CMakeCCompilerABI.c.o
-[2/2] Linking C executable cmTC_a7b02
+Run Build Command:"/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_3ac9c"
+[1/2] Building C object CMakeFiles/cmTC_3ac9c.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_3ac9c
 Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)
 Target: x86_64-none-linux-android27
 Thread model: posix
@@ -22,16 +22,16 @@ Found candidate GCC installation: /home/rupesh/Android/Sdk/ndk-bundle/toolchains
 Selected GCC installation: /home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld" --sysroot=/home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64 -pie -z relro --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_a7b02 /home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib/../lib64/crtbegin_dynamic.o -L/home/rupesh/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86_64 -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/7.0.2/lib/linux/x86_64 -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64 -L/home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib/../lib64 -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib -L/home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_a7b02.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib/../lib64/crtend_android.o
+ "/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld" --sysroot=/home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64 -pie -z relro --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_3ac9c /home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib/../lib64/crtbegin_dynamic.o -L/home/rupesh/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86_64 -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/7.0.2/lib/linux/x86_64 -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64 -L/home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib/../lib64 -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib -L/home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_3ac9c.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib/../lib64/crtend_android.o
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(x86_64-linux-android-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/rupesh/Desktop/GIT/testproject/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_a7b02"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_a7b02.dir/CMakeCCompilerABI.c.o]
-  ignore line: [[2/2] Linking C executable cmTC_a7b02]
+  ignore line: [Run Build Command:"/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_3ac9c"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_3ac9c.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_3ac9c]
   ignore line: [Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)]
   ignore line: [Target: x86_64-none-linux-android27]
   ignore line: [Thread model: posix]
@@ -42,7 +42,7 @@ Parsed C implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld" --sysroot=/home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64 -pie -z relro --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_a7b02 /home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib/../lib64/crtbegin_dynamic.o -L/home/rupesh/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86_64 -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/7.0.2/lib/linux/x86_64 -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64 -L/home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib/../lib64 -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib -L/home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_a7b02.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib/../lib64/crtend_android.o]
+  link line: [ "/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld" --sysroot=/home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64 -pie -z relro --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_3ac9c /home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib/../lib64/crtbegin_dynamic.o -L/home/rupesh/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86_64 -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/7.0.2/lib/linux/x86_64 -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64 -L/home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib/../lib64 -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib -L/home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_3ac9c.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib/../lib64/crtend_android.o]
     arg [/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld] ==> ignore
     arg [--sysroot=/home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64] ==> ignore
     arg [-pie] ==> ignore
@@ -54,7 +54,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker64] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_a7b02] ==> ignore
+    arg [cmTC_3ac9c] ==> ignore
     arg [/home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib/../lib64/crtbegin_dynamic.o] ==> ignore
     arg [-L/home/rupesh/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86_64] ==> dir [/home/rupesh/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86_64]
     arg [-L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/7.0.2/lib/linux/x86_64] ==> dir [/home/rupesh/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/7.0.2/lib/linux/x86_64]
@@ -76,7 +76,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_a7b02.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_3ac9c.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
     arg [-lc] ==> lib [c]
@@ -100,11 +100,11 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
+Change Dir: /home/rupesh/Desktop/GIT/testproject/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_d7111"
-[1/2] Building C object CMakeFiles/cmTC_d7111.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_d7111
+Run Build Command:"/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_d0db3"
+[1/2] Building C object CMakeFiles/cmTC_d0db3.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_d0db3
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -114,11 +114,11 @@ Run Build Command:"/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_d
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
+Change Dir: /home/rupesh/Desktop/GIT/testproject/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_04aaa"
-[1/2] Building C object CMakeFiles/cmTC_04aaa.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_04aaa
+Run Build Command:"/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_3269c"
+[1/2] Building C object CMakeFiles/cmTC_3269c.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_3269c
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -128,11 +128,11 @@ Run Build Command:"/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_0
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
+Change Dir: /home/rupesh/Desktop/GIT/testproject/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_b9430"
-[1/2] Building C object CMakeFiles/cmTC_b9430.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_b9430
+Run Build Command:"/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_68d9e"
+[1/2] Building C object CMakeFiles/cmTC_68d9e.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_68d9e
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -140,19 +140,19 @@ Run Build Command:"/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_b
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
+Change Dir: /home/rupesh/Desktop/GIT/testproject/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_4c7d8"
-[1/2] Building CXX object CMakeFiles/cmTC_4c7d8.dir/testCXXCompiler.cxx.o
-[2/2] Linking CXX executable cmTC_4c7d8
+Run Build Command:"/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_386ae"
+[1/2] Building CXX object CMakeFiles/cmTC_386ae.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_386ae
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
+Change Dir: /home/rupesh/Desktop/GIT/testproject/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_81e91"
-[1/2] Building CXX object CMakeFiles/cmTC_81e91.dir/CMakeCXXCompilerABI.cpp.o
-[2/2] Linking CXX executable cmTC_81e91
+Run Build Command:"/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_e3077"
+[1/2] Building CXX object CMakeFiles/cmTC_e3077.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_e3077
 Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)
 Target: x86_64-none-linux-android27
 Thread model: posix
@@ -161,16 +161,16 @@ Found candidate GCC installation: /home/rupesh/Android/Sdk/ndk-bundle/toolchains
 Selected GCC installation: /home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld" --sysroot=/home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64 -pie -z relro --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_81e91 /home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib/../lib64/crtbegin_dynamic.o -L/home/rupesh/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86_64 -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/7.0.2/lib/linux/x86_64 -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64 -L/home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib/../lib64 -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib -L/home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_81e91.dir/CMakeCXXCompilerABI.cpp.o -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib/../lib64/crtend_android.o
+ "/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld" --sysroot=/home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64 -pie -z relro --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_e3077 /home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib/../lib64/crtbegin_dynamic.o -L/home/rupesh/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86_64 -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/7.0.2/lib/linux/x86_64 -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64 -L/home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib/../lib64 -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib -L/home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_e3077.dir/CMakeCXXCompilerABI.cpp.o -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib/../lib64/crtend_android.o
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(x86_64-linux-android-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/rupesh/Desktop/GIT/testproject/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_81e91"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_81e91.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [[2/2] Linking CXX executable cmTC_81e91]
+  ignore line: [Run Build Command:"/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_e3077"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_e3077.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_e3077]
   ignore line: [Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)]
   ignore line: [Target: x86_64-none-linux-android27]
   ignore line: [Thread model: posix]
@@ -181,7 +181,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld" --sysroot=/home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64 -pie -z relro --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_81e91 /home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib/../lib64/crtbegin_dynamic.o -L/home/rupesh/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86_64 -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/7.0.2/lib/linux/x86_64 -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64 -L/home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib/../lib64 -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib -L/home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_81e91.dir/CMakeCXXCompilerABI.cpp.o -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib/../lib64/crtend_android.o]
+  link line: [ "/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld" --sysroot=/home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64 -pie -z relro --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_e3077 /home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib/../lib64/crtbegin_dynamic.o -L/home/rupesh/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86_64 -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/7.0.2/lib/linux/x86_64 -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64 -L/home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib/../lib64 -L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib -L/home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_e3077.dir/CMakeCXXCompilerABI.cpp.o -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib/../lib64/crtend_android.o]
     arg [/home/rupesh/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld] ==> ignore
     arg [--sysroot=/home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64] ==> ignore
     arg [-pie] ==> ignore
@@ -193,7 +193,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker64] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_81e91] ==> ignore
+    arg [cmTC_e3077] ==> ignore
     arg [/home/rupesh/Android/Sdk/ndk-bundle/platforms/android-27/arch-x86_64/usr/lib/../lib64/crtbegin_dynamic.o] ==> ignore
     arg [-L/home/rupesh/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86_64] ==> dir [/home/rupesh/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86_64]
     arg [-L/home/rupesh/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/7.0.2/lib/linux/x86_64] ==> dir [/home/rupesh/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/7.0.2/lib/linux/x86_64]
@@ -215,7 +215,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_81e91.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_e3077.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lm] ==> lib [m]
     arg [-lgcc] ==> lib [gcc]
     arg [-lgcc] ==> lib [gcc]
@@ -244,11 +244,11 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
+Change Dir: /home/rupesh/Desktop/GIT/testproject/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_b00c7"
-[1/2] Building CXX object CMakeFiles/cmTC_b00c7.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_b00c7
+Run Build Command:"/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_948e2"
+[1/2] Building CXX object CMakeFiles/cmTC_948e2.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_948e2
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -311,11 +311,11 @@ Run Build Command:"/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_b
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
+Change Dir: /home/rupesh/Desktop/GIT/testproject/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_800ee"
-[1/2] Building CXX object CMakeFiles/cmTC_800ee.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_800ee
+Run Build Command:"/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_17618"
+[1/2] Building CXX object CMakeFiles/cmTC_17618.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_17618
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -378,11 +378,11 @@ Run Build Command:"/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_8
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
+Change Dir: /home/rupesh/Desktop/GIT/testproject/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_13ee6"
-[1/2] Building CXX object CMakeFiles/cmTC_13ee6.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_13ee6
+Run Build Command:"/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_20632"
+[1/2] Building CXX object CMakeFiles/cmTC_20632.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_20632
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

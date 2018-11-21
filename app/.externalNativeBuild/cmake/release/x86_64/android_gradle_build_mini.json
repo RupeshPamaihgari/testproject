@@ -1,16 +1,16 @@
 {
   "buildFiles": [
-    "/home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/cpp/CMakeLists.txt"
+    "/home/rupesh/Desktop/GIT/testproject/app/src/main/cpp/CMakeLists.txt"
   ],
   "cleanCommands": [
-    "/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/.externalNativeBuild/cmake/release/x86_64 --target clean"
+    "/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/rupesh/Desktop/GIT/testproject/app/.externalNativeBuild/cmake/release/x86_64 --target clean"
   ],
   "libraries": {
     "truearapp-Release-x86_64": {
       "artifactName": "truearapp",
-      "buildCommand": "/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/.externalNativeBuild/cmake/release/x86_64 --target truearapp",
+      "buildCommand": "/home/rupesh/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/rupesh/Desktop/GIT/testproject/app/.externalNativeBuild/cmake/release/x86_64 --target truearapp",
       "abi": "x86_64",
-      "output": "/home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/build/intermediates/cmake/release/obj/x86_64/libtruearapp.so"
+      "output": "/home/rupesh/Desktop/GIT/testproject/app/build/intermediates/cmake/release/obj/x86_64/libtruearapp.so"
     },
     "lib_truearapi-Release-x86_64": {
       "artifactName": "lib_truearapi",

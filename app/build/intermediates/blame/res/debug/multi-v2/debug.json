@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "outputFile": "/home/rupesh/Desktop/GIT/testproject/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
             "map": [
                 {
-                    "source": "/home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/res/values/strings.xml",
+                    "source": "/home/rupesh/Desktop/GIT/testproject/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
