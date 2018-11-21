@@ -1,0 +1,3 @@
+/home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir
+/home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
+/home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/truearapp.dir
