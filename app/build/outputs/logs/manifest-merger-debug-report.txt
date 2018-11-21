@@ -1,0 +1,76 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml:3:1-27:12
+INJECTED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml:3:1-27:12
+INJECTED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml:3:1-27:12
+INJECTED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml:3:1-27:12
+MERGED from [truearapi.aar] /home/rupesh/.gradle/caches/transforms-1/files-1.1/truearapi.aar/441fcf28097a479be7886340e5d5133e/AndroidManifest.xml:2:1-11:12
+INJECTED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml:3:1-27:12
+INJECTED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml:3:1-27:12
+INJECTED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml:3:1-27:12
+	package
+		ADDED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml:4:11-54
+		INJECTED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml
+		INJECTED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml:6:11-36
+		INJECTED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml
+		INJECTED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml:3:11-69
+	android:versionCode
+		ADDED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml:5:11-34
+		INJECTED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml
+		INJECTED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml
+application
+ADDED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml:8:3-25:17
+	android:supportsRtl
+		ADDED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml:12:7-33
+	android:label
+		ADDED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml:11:7-39
+	android:icon
+		ADDED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml:10:7-41
+	android:allowBackup
+		ADDED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml:9:7-33
+activity#com.wayray.truear.sdk.api.TrueARActivity
+ADDED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml:13:5-19:16
+	android:name
+		ADDED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml:13:15-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml:14:7-18:23
+action#android.intent.action.MAIN
+ADDED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml:15:9-61
+	android:name
+		ADDED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml:15:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml:17:9-69
+	android:name
+		ADDED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml:17:19-66
+service#com.wayray.truear.sdk.api.TrueARService
+ADDED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml:21:5-24:43
+	android:enabled
+		ADDED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml:23:9-31
+	android:exported
+		ADDED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml:24:9-32
+	android:name
+		ADDED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml:22:9-63
+uses-sdk
+INJECTED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml
+INJECTED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml
+MERGED from [truearapi.aar] /home/rupesh/.gradle/caches/transforms-1/files-1.1/truearapi.aar/441fcf28097a479be7886340e5d5133e/AndroidManifest.xml:5:5-7:41
+MERGED from [truearapi.aar] /home/rupesh/.gradle/caches/transforms-1/files-1.1/truearapi.aar/441fcf28097a479be7886340e5d5133e/AndroidManifest.xml:5:5-7:41
+INJECTED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml
+INJECTED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml
+		ADDED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml
+		INJECTED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml
+		ADDED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml
+		INJECTED from /home/rupesh/Android/Sdk/extras/wayray/sdk/sdk_samples/ArrowSample/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [truearapi.aar] /home/rupesh/.gradle/caches/transforms-1/files-1.1/truearapi.aar/441fcf28097a479be7886340e5d5133e/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from [truearapi.aar] /home/rupesh/.gradle/caches/transforms-1/files-1.1/truearapi.aar/441fcf28097a479be7886340e5d5133e/AndroidManifest.xml:9:22-64
