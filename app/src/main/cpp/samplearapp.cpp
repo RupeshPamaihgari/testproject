@@ -14,7 +14,7 @@
 
 #define earthRadiusKm 6371.0
 
-#define LOGI(...) ((void)__android_log_print(ANDROID_LOG_INFO, "arrow_sample", __VA_ARGS__))
+#define LOGI(...) ((void)__android_log_print(ANDROID_LOG_INFO, "arrow_sample_Main_app", __VA_ARGS__))
 
 using namespace WayRay;
 
